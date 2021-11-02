@@ -36,5 +36,7 @@ include('credit_limit_notification.php');
 include('credit_limit_reimburse_form_mods.php');
 // This applies some modifications to the user edit page within the WP admin panel.
 include('user_edit_page_mods.php');
-// Include the ajax stuff (under development).
-//include('ajax.php');
+// When the cart is updated, refresh the page.
+include('refresh_page_via_ajax.php');
+// Creates a custom order status and email for credit added to users accounts.
+include('credit_added_order_status.php');
